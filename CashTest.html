@@ -1,0 +1,45 @@
+<html>
+<head>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="json2.js" type="text/javascript"></script>
+    <script src="CashTest.js" type="text/javascript"></script>
+    <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap-theme.min.css">
+    <script src="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+</head>
+<body role="document" cz-shortcut-listen="true">
+
+    <!-- Fixed navbar -->
+    
+
+    <div style="margin-top:7px;" class="container theme-showcase" role="main">
+        <p>
+            <button id="btnDetect" type="button"  class="btn btn-lg btn-primary">Detect MEI EBDS</button>
+            <button id="btnCashInStart" type="button" disabled="disabled" class="btn btn-lg btn-primary">Accept Cash</button>
+            <button id="btnCashInEnd" type="button" class="btn btn-lg btn-primary">End Accept Cash</button>
+        </p>
+        <!-- Main jumbotron for a primary marketing message or call to action -->
+        
+            <h3>Session Funds</h3>
+        
+        <div class="jumbotron">
+            <h1 id="currentCredit" >$0.00</h1>
+            
+        </div>
+
+        <div class="page-header">
+            <h1>Result Output</h1>
+        </div>
+        <div class="row">
+           
+            <div class="col-sm-12">
+                <div class="list-group">
+                </div>
+            </div><!-- /.col-sm-4 -->
+        </div>
+
+
+    </div> <!-- /container -->
+   
+</body>
+</html>
